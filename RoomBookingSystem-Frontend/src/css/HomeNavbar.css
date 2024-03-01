@@ -1,0 +1,51 @@
+.wrapper{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    overflow-x: hidden;
+    border-radius: 0 0 10px 10px;
+    flex-wrap: wrap;
+    background-attachment: fixed;
+    backdrop-filter: opacity(0);
+    z-index: 2;
+}
+
+.wrapper .nav-options ul{
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    flex-wrap: wrap;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.nav-options ul a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.wrapper .login-btn{
+    padding-right: 2em;
+}
+
+.head-btn{
+    width:5vw;
+    height:2vw;
+    font-size: 18px;
+    border-radius:10px;
+    border: none;
+    background-color: #2d2c36;
+    color:white;
+}
+
+.head-btn:hover{
+    background-color: #c7b36e;
+}
+.logo{
+    width:15vw;
+    height: 20vh;
+    border-radius:20px;
+}

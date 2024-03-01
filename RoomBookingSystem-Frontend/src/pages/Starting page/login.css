@@ -1,0 +1,202 @@
+.login-page {
+    background-image: url('../../assets/image1/plainRoom.jpg');
+    /*background-image: url("../../assets/image/mainpage.png");*/
+    background-color: #152039;
+    display: flex;
+    height: 100vh;
+    /*opacity: 0.6;*/
+}
+.left-sec-login {
+    margin-left: 130px;
+}
+.website-title-login {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 70px;
+}
+.margadarshan-login, .gyansarathi-login {
+    color:#551A8b;
+    opacity: 0.9;
+}
+.margadarshan-login {
+    font-size: 60px;
+    font-weight: bold;
+}
+.gyansarathi-login {
+    font-size: 35px;
+}
+
+.right-sec-login {
+    background-image: url('../../assets/image1/FeelHome.jpg');
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 110px;
+    margin-left: 250px;
+
+    transition: margin-left 0.3s ease;
+}
+
+.admin-login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 600px;
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 110px;
+    margin-left: 250px;
+
+    transition: margin-left 0.3s ease;
+}
+.admin-login-email{
+    margin-top: 20px;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+}
+
+.otp-container{
+    margin-top: 20px;
+}
+
+.page-heading-login {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.login-title, .login-welcome, .login-to-account {
+    color: black;
+    /*font-family: "Nunito";*/
+}
+.login-title {
+    font-weight: bold;
+    font-size: 36px;
+}
+.login-welcome, .login-to-account {
+    font-size: 20px;
+    margin-top: -10px;
+}
+/*.user-input-login {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 30px;*/
+/*    margin-top: 20px;*/
+/*    margin-left: 60px;*/
+/*}*/
+input {
+    width: 300px;
+    border-style: solid;
+    color: black;
+}
+/*.email-container-login, .password-container-login {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*}*/
+.error-message-email, .error-message-password, .error-message-admin {
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    /*margin-bottom: 0px;*/
+}
+.error-message-email {
+    margin-left: -150px;
+}
+.error-message-password {
+    margin-left: -135px;
+}
+.error-message-admin {
+    margin-top: 10px;
+    margin-left: -75px;
+}
+.admin-login-form {
+    margin: 10px 0 0 350px;
+}
+
+.back-to-user-login{
+    margin: 10px 10px -20px 300px;
+}
+
+@media screen and (max-width:1400px) {
+    .left-sec-login {
+        margin-top: -50px;
+    }
+    .login-img {
+        display: none;
+    }
+    .right-sec-login {
+        margin-top: 200px;
+        margin-left: -500px;
+        height: 550px;
+    }
+    .admin-login-form {
+        margin: 10px 0 -30px 350px;
+    }
+    .back-to-user-login{
+        margin: 10px 10px -20px 300px;
+    }
+    .admin-login-container {
+        margin-top: 200px;
+        margin-left: -500px;
+        height: 550px;
+    }
+    .forgot-password-login {
+        margin-left: 300px;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:750px) {
+    .left-sec-login {
+        margin-left: 30px;
+    }
+    .margadarshan-login {
+        font-size: 50px;
+    }
+    .right-sec-login {
+        margin-left: -430px;
+        width: 450px;
+    }
+    .error-message-email {
+        margin-left: -130px;
+    }
+    .error-message-password {
+        margin-left: -115px;
+    }
+    .login-btn-container {
+        margin-left: 40px;
+    }
+    .admin-login-form {
+        margin: 10px 0 -30px 300px;
+    }
+    .admin-login-container {
+        margin-left: -430px;
+        width: 450px;
+    }
+    .admin-login-container .page-heading-login .login-to-account {
+        text-align: start;
+    }
+    .back-to-user-login{
+        margin: 10px 10px -20px 250px;
+    }
+    .forgot-password-login {
+        margin-left: 250px;
+        margin-top: 15px;
+    }
+}
+
+.admin-login-container-button{
+    margin: 12vw 10px 0 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+/*#tom{*/
+/*    opacity: 1;*/
+/*}*/
